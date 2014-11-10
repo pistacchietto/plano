@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D483CBCC19D5DFD30050F87D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D483CBCB19D5DFD30050F87D /* main.m */; };
+		D483CBCF19D5DFD30050F87D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D483CBCE19D5DFD30050F87D /* AppDelegate.m */; };
+		D483CBD119D5DFD30050F87D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D483CBD019D5DFD30050F87D /* Images.xcassets */; };
+		D483CBD419D5DFD40050F87D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D483CBD219D5DFD40050F87D /* MainMenu.xib */; };
+		D483CBE019D5DFD40050F87D /* planoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D483CBDF19D5DFD40050F87D /* planoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D483CBDA19D5DFD40050F87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D483CBBE19D5DFD30050F87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D483CBC519D5DFD30050F87D;
+			remoteInfo = plano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D483CBC619D5DFD30050F87D /* plano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D483CBCA19D5DFD30050F87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D483CBCB19D5DFD30050F87D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D483CBCD19D5DFD30050F87D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D483CBCE19D5DFD30050F87D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D483CBD019D5DFD30050F87D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D483CBD319D5DFD40050F87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D483CBD919D5DFD40050F87D /* planoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = planoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D483CBDE19D5DFD40050F87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D483CBDF19D5DFD40050F87D /* planoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = planoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D483CBC319D5DFD30050F87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D483CBD619D5DFD40050F87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D483CBBD19D5DFD30050F87D = {
+			isa = PBXGroup;
+			children = (
+				D483CBC819D5DFD30050F87D /* plano */,
+				D483CBDC19D5DFD40050F87D /* planoTests */,
+				D483CBC719D5DFD30050F87D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D483CBC719D5DFD30050F87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D483CBC619D5DFD30050F87D /* plano.app */,
+				D483CBD919D5DFD40050F87D /* planoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D483CBC819D5DFD30050F87D /* plano */ = {
+			isa = PBXGroup;
+			children = (
+				D483CBCD19D5DFD30050F87D /* AppDelegate.h */,
+				D483CBCE19D5DFD30050F87D /* AppDelegate.m */,
+				D483CBD019D5DFD30050F87D /* Images.xcassets */,
+				D483CBD219D5DFD40050F87D /* MainMenu.xib */,
+				D483CBC919D5DFD30050F87D /* Supporting Files */,
+			);
+			path = plano;
+			sourceTree = "<group>";
+		};
+		D483CBC919D5DFD30050F87D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D483CBCA19D5DFD30050F87D /* Info.plist */,
+				D483CBCB19D5DFD30050F87D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D483CBDC19D5DFD40050F87D /* planoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D483CBDF19D5DFD40050F87D /* planoTests.m */,
+				D483CBDD19D5DFD40050F87D /* Supporting Files */,
+			);
+			path = planoTests;
+			sourceTree = "<group>";
+		};
+		D483CBDD19D5DFD40050F87D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D483CBDE19D5DFD40050F87D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D483CBC519D5DFD30050F87D /* plano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D483CBE319D5DFD40050F87D /* Build configuration list for PBXNativeTarget "plano" */;
+			buildPhases = (
+				D483CBC219D5DFD30050F87D /* Sources */,
+				D483CBC319D5DFD30050F87D /* Frameworks */,
+				D483CBC419D5DFD30050F87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plano;
+			productName = plano;
+			productReference = D483CBC619D5DFD30050F87D /* plano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D483CBD819D5DFD40050F87D /* planoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D483CBE619D5DFD40050F87D /* Build configuration list for PBXNativeTarget "planoTests" */;
+			buildPhases = (
+				D483CBD519D5DFD40050F87D /* Sources */,
+				D483CBD619D5DFD40050F87D /* Frameworks */,
+				D483CBD719D5DFD40050F87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D483CBDB19D5DFD40050F87D /* PBXTargetDependency */,
+			);
+			name = planoTests;
+			productName = planoTests;
+			productReference = D483CBD919D5DFD40050F87D /* planoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D483CBBE19D5DFD30050F87D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = tutti;
+				TargetAttributes = {
+					D483CBC519D5DFD30050F87D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D483CBD819D5DFD40050F87D = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D483CBC519D5DFD30050F87D;
+					};
+				};
+			};
+			buildConfigurationList = D483CBC119D5DFD30050F87D /* Build configuration list for PBXProject "plano" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D483CBBD19D5DFD30050F87D;
+			productRefGroup = D483CBC719D5DFD30050F87D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D483CBC519D5DFD30050F87D /* plano */,
+				D483CBD819D5DFD40050F87D /* planoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D483CBC419D5DFD30050F87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D483CBD119D5DFD30050F87D /* Images.xcassets in Resources */,
+				D483CBD419D5DFD40050F87D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D483CBD719D5DFD40050F87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D483CBC219D5DFD30050F87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D483CBCF19D5DFD30050F87D /* AppDelegate.m in Sources */,
+				D483CBCC19D5DFD30050F87D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D483CBD519D5DFD40050F87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D483CBE019D5DFD40050F87D /* planoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D483CBDB19D5DFD40050F87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D483CBC519D5DFD30050F87D /* plano */;
+			targetProxy = D483CBDA19D5DFD40050F87D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D483CBD219D5DFD40050F87D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D483CBD319D5DFD40050F87D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D483CBE119D5DFD40050F87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D483CBE219D5DFD40050F87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D483CBE419D5DFD40050F87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = plano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D483CBE519D5DFD40050F87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = plano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D483CBE719D5DFD40050F87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = planoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plano.app/Contents/MacOS/plano";
+			};
+			name = Debug;
+		};
+		D483CBE819D5DFD40050F87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = planoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plano.app/Contents/MacOS/plano";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D483CBC119D5DFD30050F87D /* Build configuration list for PBXProject "plano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D483CBE119D5DFD40050F87D /* Debug */,
+				D483CBE219D5DFD40050F87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D483CBE319D5DFD40050F87D /* Build configuration list for PBXNativeTarget "plano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D483CBE419D5DFD40050F87D /* Debug */,
+				D483CBE519D5DFD40050F87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D483CBE619D5DFD40050F87D /* Build configuration list for PBXNativeTarget "planoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D483CBE719D5DFD40050F87D /* Debug */,
+				D483CBE819D5DFD40050F87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D483CBBE19D5DFD30050F87D /* Project object */;
+}

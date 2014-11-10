@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>15BB3F15-8A40-421A-BC98-59A5A97C762E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>plano</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>513528FC8192D2E4A9A94678EE1E93CE4255DD19</key>
+		<string>https://github.com/pistacchietto/plano.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>plano.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>513528FC8192D2E4A9A94678EE1E93CE4255DD19</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pistacchietto/plano.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>513528FC8192D2E4A9A94678EE1E93CE4255DD19</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>513528FC8192D2E4A9A94678EE1E93CE4255DD19</string>
+			<key>IDESourceControlWCCName</key>
+			<string>plano</string>
+		</dict>
+	</array>
+</dict>
+</plist>
